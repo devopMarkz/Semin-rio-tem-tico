@@ -1,0 +1,164 @@
+def porcentagem (respostas_c,q):
+  return  ((respostas_c/q)*100)
+
+
+print()
+print()
+print()
+print("                    :!@:                         !!#@@#!.                                                               ")
+print("                  !@@@@@   .!@@:               !@@@@@@@@@!.                    :@@#.                                    ")
+print("                 !@@@@@@!  !@@@@              @@@@@@@@@@@@#.                   @@@@#                                    ")
+print("                :@@@@@##!  :@@@@             @@@@@@@@@@@@@@@.                  @@@@#                                    ")
+print("                !@@@@#      !##:      ..    !@@@@@#: .#@@@@@@                  .###                                     ")
+print("                !@@@@#      ....    .@@@@   @@@@@#     .@@@@@.  ....    .....  .....  .:........                        ")
+print("                !@@@@@     !@@@@   #@@@@@! .@@@@#       #@@@@:  @@@@:   @@@@#  @@@@#  :@@@@@@@@@!                       ")
+print("                 #@@@@@    :@@@@  :@@@@@.  #@@@@!        @@@@!  @@@@:   @@@@#  @@@@#  @@@@@@@@@@!                       ")
+print("                  @@@@@@   :@@@@  :@@@@    #@@@@!        @@@@! !@@@@:   @@@@#  @@@@#  @@@@@@@@@@!                       ")
+print("                   #@@@@!  :@@@@  :@@@@#   !@@@@!        @@@@: #@@@@:   @@@@#  @@@@#  .   #@@@@:                        ")
+print("                   !@@@@@  :@@@@   :@@@@#   @@@@#       #@@@@: #@@@@:   @@@@#  @@@@#     #@@@@:                         ")
+print("                   #@@@@@  :@@@@    :@@@@:  #@@@@!     :@@@@@. !@@@@:   @@@@#  @@@@#    #@@@@:                          ")
+print("                 .!@@@@@#  :@@@@     @@@@!  :@@@@@@!!!#@@@@@!  .@@@@!  :@@@@#  @@@@#  !@@@@@.  .:                       ")
+print("                @@@@@@@@:  :@@@@  ::#@@@@!   !@@@@@@@@@@@@@@    @@@@@@@@@@@@#  @@@@# :@@@@@@@@@@#                       ")
+print("                !@@@@@@.   :@@@@  #@@@@@#     !@@@@@@@@@@@#     #@@@@@@@@@@@#  @@@@#  @@@@@@@@@@!                       ")
+print("                @@@@!     :@@@@  .@@@@#    O   .#@@@@@@@#.      .#@@@@# @@@@#  @@@@# .@@@@@@@@@@!                       ")
+print("                 :#:               .!.            #@@@@                                                                 ")
+print("                                                  #@@@@#                                                                ")
+print("                                                  #@@@@@@                                                               ")
+print("                                                                                                                        ")
+print("                                                                                                                        ")
+print("                                                                                                                        ")
+print("                                           .#@@@@@!.           ..#@@@@@!.                                               ")
+print("                                         :@@@@@@@@@@!         .@@@@@@@@@@:                                              ")
+print("                                         :@@@@@@@@@@@.        .@@@@@@@@@@@.                                             ")
+print("                                         .@@@: #@@@@@:        .@@#. #@@@@@.                                             ")
+print("                                          !     :@@@@:        .!     :@@@@.                                             ")
+print("                                                :@@@@.               .@@@@.                                             ")
+print("                                                #@@@#                @@@@#                                              ")
+print("                                               !@@@#                !@@@#                                               ")
+print("                                              !@@@@.     .!.       #@@@#                                                ")
+print("                                             !@@@@.     !@@@!     !@@@@.                                                ")
+print("                                          .:!@@@@##@@@::@@@@@: .:!@@@@###@@:                                            ")
+print("                                         :@@@@@@@@@@@@::@@@@@:.@@@@@@@@@@@@:                                            ")
+print("                                          @@@@@@@@@@@@:.@@@@@..@@@@@@@@@@@@:                                            ")
+print("                                          ###########@:  #@#.  ###########@:                                            ")
+print()
+
+
+
+
+perguntas = {
+
+     '---PORTUGUÊS--- \n'
+
+     'Question 1:\n': {
+        'pergunta':'\n Esta vida é uma viagem \n pena eu estar \n só de passagem \n'' (Paulo Leminki) \n''In the poem, the poet laments:: \n',
+
+        'resposta':{ 'a':'of the fleetingness of life','b': 'revolt against your fate','c': 'suggests that life is meaningless', 'd': 'abhors the hustle and bustle of life ' },
+        'resposta_certa': 'a',
+    },
+    '---CÁLCULO--- \n'
+    'Question 2 \n': {
+    
+        'pergunta': '\nThe integral of the function ∫ x^7 dx :',
+
+        'resposta':{ 'a':'7x^7/7 ','b': '7x^8/8','c': '7x/7', 'd': '7x^8' },
+        'resposta_certa': 'b',  
+    },
+    '---INGLÊS--- \n'
+    'Question 3 \n': {
+    
+        'pergunta': '\nWhat is the speed reading strategy? :',
+
+        'resposta':{ 'a':'Scanning ','b': 'Main idea', 'c': 'Skimming', 'd': 'Nominal groups' },
+        'resposta_certa': 'c',  
+    },
+    '---METÓDOS E TECNICAS DE PESQUISA--- \n'
+
+    'Question 4 \n': {
+    
+        'pergunta': '\nWhich quotes fit the ABNT parameters? :',
+
+        'resposta':{ 'a':'(NASCIMENTO, 1996, p.123)','b': '(nascimento, 1999, p.122)','c': '(NASCIMENTO, 1999, P.12)', 'd': 'NASCIMENTO(1996, p.13)' },
+        'resposta_certa': 'a',  
+    },
+    '---ORGANIZAÇÃO SISTEMAS E METODOS--- \n'
+
+    'Question 5 \n': {
+    
+        'pergunta': '\nThe tool that produces an administrative checklist, deadlines and responsabilities for everyone involved in a project is:',
+
+        'resposta':{ 'a':'5W2H ','b': 'Ishikawa diagram','c': 'Kanban', 'd': 'WPA2' },
+        'resposta_certa': 'a',  
+    },
+    '---LÓGICA E ALGORITMO DE PROGAMAÇÃO--- \n'
+    'Question 6 \n': {
+        'pergunta': '\n I)  n1 = float(input("digite um numero: ")) \n'
+                        'II)  n2 = float(input("digite outro numero: ")) \n'
+                        'III) media = n1 + n2 / 2 \n'
+                        'IV)  print(media) \n'
+
+                        'Find the error in the code and mark the correct options: ',
+
+        'resposta':{ 'a':'I e III','b': 'IV','c':'III e II', 'd':'III' },
+        'resposta_certa': 'd',  
+    },
+    '---GEOMETRIA ANALÍTICA---'
+    'Question 7 \n': {
+        'pergunta': '\nWhat is the condition to find the matrix inverse of a square matrix?:',
+
+        'resposta':{ 'a':'Use the Sarrus rule','b': 'Everything that is a line becomes a column','c': 'The determinant is different from 0', 'd': 'The determinant be 0' },
+        'resposta_certa': 'c',  
+    },
+
+
+}
+
+respostas_c = 0
+for perguntas_k,perguntas_v in perguntas.items():
+  print()
+  print(f'{perguntas_k}  {perguntas_v["pergunta"]}')
+
+  print()
+
+  print('Chose the options below'.capitalize())
+  for respostas_k, respostas_v in perguntas_v ['resposta'].items():
+    print (f'({respostas_k}) : {respostas_v } ')
+  
+  
+
+  while True:
+    print()
+    sua_resposta = input('Type your answer: ').lower()
+    if sua_resposta != 'a' and sua_resposta != 'b' and sua_resposta != 'c' and sua_resposta != 'd':
+      print()
+      print('Enter a valid letter: \U0001F642 ')
+      print()
+      
+    else:
+
+      break
+      
+
+  if sua_resposta == perguntas_v ['resposta_certa'] :
+     print()
+     print('WHOOOP, YOU ARE SURE !!! \U0001F603 ')
+     respostas_c+=1
+  else:
+      print('UNFORTUNATELY YOU ARE WRONG \U0001F614. ')
+      print()
+print(f'Amount of hits = {respostas_c}')
+print(f'Amount of questions = {len(perguntas)}')
+quant_perguntas = len(perguntas)
+print()
+print(f'The number of the correct answers was: {porcentagem(respostas_c,quant_perguntas):.2f}%')
+
+print()
+resp = str(input('Do you like this game? / yes / not: ').lower())
+if resp == 'yes':
+    print('MIN NA ARIGATO! \U0001F601 !!! ')
+else:
+    resp == 'not'
+    print('HASTA LA VISTA! \U0001F612')
+    print()
+
+finalizar = input('PRESS ENTER TO FINISH!!!')
