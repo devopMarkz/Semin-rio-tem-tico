@@ -1,3 +1,13 @@
+print('         ---HOW TO PLAY--- \n',
+       
+        '•Multiple choice game, A, B, C or D\n   ',
+      '  \n •Enter the alternative you think os right \n',
+         '\n•Choose one of the alternatives nas in the em you Will haver the correcto amount')
+print()
+comecar = str (input ("let's play \U0001F603 ?!!, press enter to go!"))
+print()
+
+
 def porcentagem (respostas_c,q):
   return  ((respostas_c/q)*100)
 
